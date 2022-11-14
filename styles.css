@@ -148,7 +148,6 @@ p {
 }
 .about .box .year_company {
     min-width: 150px;
-    
 }
 .about .box .year_company  h5{
     text-transform: uppercase;
@@ -168,7 +167,7 @@ p {
     grid-template-columns: 150px 1fr;
     justify-content: center;
     align-items: center;
-    margin-bottom: 35px;
+
 }
 .skills .box h4 {
     text-transform: uppercase;
@@ -202,6 +201,14 @@ p {
 .interest ul li .fa {
     color: #03a9f4;
     font-size: 18px;
+}
+.about .box .personal {
+    min-width: 150px;
+}
+.about .box .personal h4{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 @media (max-width: 1000px) {
     .container {
